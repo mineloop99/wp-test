@@ -28,7 +28,7 @@ define( 'DB_NAME', 'u940722230_mcos_db' );
 define( 'DB_USER', 'u940722230_mineloop' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'Mineloop17109' );
+define( 'DB_PASSWORD', 'Mineloop1710' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
