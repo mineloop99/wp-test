@@ -1,4 +1,6 @@
 <?php
+define('WP_HOME','http://mcos.mfmogroup.com/');
+define('WP_SITEURL','http://mcos.mfmogroup.com/');
 /**
  * The base configuration for WordPress
  *
@@ -20,19 +22,19 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wp_test' );
+define( 'DB_NAME', 'u940722230_mcos_db' );
 
 /** MySQL database username */
-define( 'DB_USER', 'u940722230' );
+define( 'DB_USER', 'u940722230_mineloop' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'Hungthjkju2' );
+define( 'DB_PASSWORD', 'Mineloop17109' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'McosWeb' );
+define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8mb4' );
+define( 'DB_CHARSET', 'utf8' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
