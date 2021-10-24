@@ -29,7 +29,7 @@ define( 'DB_USER', 'u940722230_mineloop' );
 
 /** MySQL database password */
 define( 'DB_PASSWORD', 'Mineloop1710' );
-
+#
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
 
