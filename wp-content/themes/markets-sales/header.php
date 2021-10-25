@@ -33,7 +33,7 @@
   </a>
  <?php
   wp_nav_menu( array(
-   'theme_location'  => 'header',
+   'theme_location'  => 'menu-1',
    'container'    => 'nav',
    'container_class'  => 'menu',
    'menu_class'    => 'menu__list',
