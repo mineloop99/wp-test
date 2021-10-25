@@ -26,3 +26,53 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 /*reset css below*/
+/*************Main Styles **************/
+:root {
+ --first: #2583FD;
+ --second: #07E1A2;
+ --gray: #9299A6;
+ --gray-dark: #2C3340;
+ --gray-light: #AFB5C2;
+}
+html {
+ font-size: 62.5%;
+}
+body {
+ font-family: "Lato", sans-serif;
+}
+.container {
+ max-width: 1185px;
+ margin: 0 auto;
+}
+.header {
+ background-color: white;
+ padding-top: 1rem;
+ padding-bottom: 1rem;
+}
+.header__container {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.menu__list {
+ display: flex;
+ align-items: center;
+ font-size: 1.4rem;
+}
+.menu__item:not(:last-child) {
+ margin-right: 1rem ;
+}
+.menu__link {
+ display: block;
+ padding: 1.5rem 2rem;
+ color: var(--gray-dark);
+ text-decoration: none;
+ transition: color .2s linear;
+}
+.menu__link:hover {
+ color: var(--first);
+}
+.menu__item:last-child .menu__link {
+ border: 1px solid var(--gray);
+ border-radius: 4px;
+}
