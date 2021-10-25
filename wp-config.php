@@ -1,6 +1,4 @@
 <?php
-define('WP_HOME','http://mcos.mfmogroup.com/');
-define('WP_SITEURL','http://mcos.mfmogroup.com/');
 /**
  * The base configuration for WordPress
  *
@@ -22,13 +20,13 @@ define('WP_SITEURL','http://mcos.mfmogroup.com/');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'u940722230_mcos_db' );
+define( 'DB_NAME', 'wp-test' );
 
 /** MySQL database username */
-define( 'DB_USER', 'u940722230_mineloop' );
+define( 'DB_USER', 'root' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'Mineloop1710' );
+define( 'DB_PASSWORD', '' );
 #
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
