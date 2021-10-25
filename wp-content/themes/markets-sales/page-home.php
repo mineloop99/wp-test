@@ -5,6 +5,6 @@
 
 get_header(); ?>
 <main>
-	<?php get_template_part('content','banner'); ?> 
+	<?php get_template_part('content','banner'); ?>
 </main>
 <?php get_footer(); ?>
