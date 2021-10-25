@@ -5,9 +5,8 @@ $banner_desc = get_field('banner_desc');
 $banner_app_download_link = get_field('banner_app_download_link');
 $banner_app_download = get_field('banner_app_download');
 $banner_image = get_field('banner_image');
-$banner_background_bottom = get_field('banner_background_bottom');
-?>
-<?php echo $banner_app_download_link ;?>
+$banner_background_bottom = get_field('banner_background_bottom'); ?>
+
 <section class="banner">
  <div class="container banner__container">
   <div class="banner__content">
