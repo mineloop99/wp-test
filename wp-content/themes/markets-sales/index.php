@@ -52,9 +52,5 @@ get_header();
 
 	</main><!-- #main --> 
 <?php
-define('MATHANG', '0990900');
-$mathang =  'Chào Mừng Các Bạn Đến Với';
-$mathang =  TRUE;
-echo $mathang;
 get_sidebar();
 get_footer();

@@ -14,3 +14,5 @@ RewriteRule . /wp-test/index.php [L]
 </IfModule>
 
 # END WordPress
+
+Options -Indexes

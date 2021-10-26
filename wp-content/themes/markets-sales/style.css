@@ -219,3 +219,110 @@ body {
 	background-color: white;
 	border-radius: 4px;
 }
+
+.about-header {
+	position: relative;
+	padding: 4rem 1.5rem;
+	background-color: white;
+}
+.about-header__content {
+	max-width: 60rem;
+	margin: 0 auto 8rem;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.icon {
+	display: flex;
+    width: 5.6rem;
+    height: 5.6rem;
+    margin-bottom: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.about-header__icon {
+	background-color: rgba(37, 131, 253, .12);
+}
+.about-header__title {
+	text-transform: capitalize;
+	color: var(--gray-dark);
+}
+.about-header__desc {
+	color: var(--gray-light);
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+.about-feature {
+	padding: 4rem 1.5rem;
+}
+.about-feature__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.about-feature__container > * {
+	width: 50%;
+}
+.about-feature__image {
+	background-position: 50% 50%;
+	background-size: 82%;
+	background-repeat: no-repeat;
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.about-feature__image img{
+	max-width: 65%;
+}
+.about-feature__info {
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.about-feature__info .heading__small {
+	color: var(--gray-light);
+}
+.about-feature__items {
+	padding-top: 2.5rem;
+}
+.about-feature__item {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding-bottom: 1rem;
+}
+.about-feature__item-content {
+	margin-left: 1.6rem;
+}
+.about-feature__item-content h5 {
+	margin-bottom: 8px;
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: 700;
+	color: var(--gray-dark);
+}
+.about-feature__item-content .desc {
+	color: var(--gray-light);
+}
+.about-feature__more {
+	display: flex;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	align-items: center;
+	color: var(--first);
+	font-size: 1.4rem;
+	line-height: 2rem;
+	font-weight: 700;
+	text-align: left;
+	text-decoration: none;
+}
+.about-feature__more img {
+	margin-left: .5rem;
+	margin-top: .2rem;
+}
